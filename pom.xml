@@ -26,7 +26,7 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <includes>
-                        <include>**/*Runner*.java</include>
+                        <include>**/*CarRunner*.java</include>
                     </includes>
                     <testFailureIgnore>false</testFailureIgnore>
                     <runOrder>alphabetical</runOrder>
