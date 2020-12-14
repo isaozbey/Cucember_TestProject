@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/CarRunner.feature",
         glue = "Com/OZY/stepDefinitions",
        // dryRun = false,
-        tags = ""
+        tags = "@smoke_test"
 
 )
 public class CarRunner {

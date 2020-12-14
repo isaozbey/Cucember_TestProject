@@ -2,7 +2,7 @@ Feature: Google Search
   Agile : User search Car list on google.
 
 
-
+@smoke_test
   Scenario Outline:
     Given User is on landing page_for_car
     When User types "<Cars>" listOfCar

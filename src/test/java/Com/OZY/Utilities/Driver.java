@@ -39,11 +39,12 @@ public class Driver {
 
                     try {
                         ChromeOptions chromeOptions=new ChromeOptions();
-                        URL url=new URL("http://localhost:4444/wd/hub");
+                        URL url=new URL("http://3.95.240.248:4444/wd/hub");
                         driver=new RemoteWebDriver(url,chromeOptions);
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
                     }
+
             }
         }
 
